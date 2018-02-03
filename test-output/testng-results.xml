@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12526" started-at="2018-01-31T08:25:36Z" finished-at="2018-01-31T08:25:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12526" started-at="2018-01-31T08:25:36Z" finished-at="2018-01-31T08:25:49Z">
+      <class name="newpackage.Test1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:newpackage.Test1@453da22c]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2018-01-31T13:55:36Z" finished-at="2018-01-31T13:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void newpackage.Test1.verifyURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyURL()[pri:0, instance:newpackage.Test1@453da22c]" name="verifyURL" duration-ms="11730" started-at="2018-01-31T13:55:36Z" finished-at="2018-01-31T13:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:newpackage.Test1@453da22c]" name="verifylogin" duration-ms="289" started-at="2018-01-31T13:55:48Z" finished-at="2018-01-31T13:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:newpackage.Test1@453da22c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-31T13:55:48Z" finished-at="2018-01-31T13:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void newpackage.Test1.verifylogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:newpackage.Test1@453da22c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-31T13:55:48Z" finished-at="2018-01-31T13:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=Test1.verifyURL()[pri:0, instance:newpackage.Test1@453da22c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:newpackage.Test1@453da22c]" name="endTest" is-config="true" duration-ms="472" started-at="2018-01-31T13:55:48Z" finished-at="2018-01-31T13:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:newpackage.Test1@453da22c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-31T13:55:48Z" finished-at="2018-01-31T13:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogin status=SUCCESS method=Test1.verifylogin()[pri:0, instance:newpackage.Test1@453da22c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newpackage.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
